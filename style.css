@@ -1,0 +1,135 @@
+/*  
+Theme Name: Good Morning Andrew
+Description: wow!
+Version: .2
+Author: alex carroll
+Author URI: http://www.beardguy.com
+*/
+@import url('reset.css');
+body {
+	width:1100px;
+	margin:30px auto;
+	font-family: 'Arimo', arial, serif;
+	line-height:1.75em;
+}
+h1 {
+	font-size:1.55em;
+}
+h2 {
+	font-size:0.9em;
+	
+}
+h3 {
+	font-size:1.125em;
+}
+a {
+	color:#959595;
+	text-decoration:none;
+}
+a:hover{
+	color:#953E34;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Josefin Sans', arial, serif;
+}
+header nav ul li {
+	float:left;
+	margin-right:15px;
+}
+header nav {
+	margin:15px 0 100px 0;
+}
+header .menu a:link, header .menu a:active, header .menu a:visited {
+	display: block;
+	text-decoration: none;
+}
+header .menu li {
+	position: relative;
+}
+header .menu ul {
+	position: absolute;
+	width: 12em;
+	top: 1.5em;
+	display: none;
+}
+header .menu li ul a {
+	width: 12em;
+}
+header .menu ul ul li {
+	top: auto;
+	margin-left: -10px;
+	margin-top: -12px;
+	float: none;
+	text-align: left;
+	border-bottom: 1px solid #aaa;
+	padding: 0 5px;
+	text-transform: none;
+	padding-bottom: 5px;
+}
+
+header .menu li ul ul {
+	left: 12em;
+	margin: 0px 0 0 10px;
+}
+header .sub-menu li {
+	margin-left: 0px;
+	float: none;
+	text-align: left;
+	border-bottom: 1px solid #aaa;
+	padding: 0 5px;
+	text-transform: none;
+}
+header .sub-menu li a {
+	padding-bottom: 5px;
+}
+header .menu li:hover ul ul, header .menu li:hover ul ul ul, header .menu li:hover ul ul ul ul {
+	display: none;
+}
+header .menu li:hover ul, header .menu li li:hover ul, header .menu li li li:hover ul, header .menu li li li li:hover ul {
+	display: block;
+}
+#blog {
+	clear:both;
+	float:left;
+	width:690px;
+}
+#blogroll {
+	float:right;
+	width:200px;
+}
+#blogroll ul li {
+	font-size:0.75em;
+}
+footer {
+	clear:both;
+}
+blockquote {
+	margin-left:35px;
+	margin-right:125px;
+}
+.wp-caption {
+	border:1px solid #ccc;
+	padding:5px;
+	text-align:center;
+}
+.post_content p {
+	margin-bottom:20px;
+}
+p.wp-caption-text {
+	padding:0;
+	margin:0;
+	background:#eee;
+	text-align:center;
+}
+p.post_meta {
+	font-size:.95em;
+	margin:0px;
+	color:#ccc;
+}
+p.post-date{
+	font-size:0.75em;
+}
+div.post {
+	margin-bottom:75px;
+}
