@@ -43,7 +43,7 @@ HI! BLOG!
       ?>
     </div>
     <div id="blogroll">
-      <? get_links_list(); ?>
+      <?get_links_list();?>
     </div>
 <? get_footer(); ?>
 
