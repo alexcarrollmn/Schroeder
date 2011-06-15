@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-HI! BLOG!
     <div id="blog">
       <? if (have_posts()) : ?>
         <? while (have_posts()) : the_post(); ?>

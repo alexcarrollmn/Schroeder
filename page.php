@@ -1,5 +1,4 @@
 <? get_header(); ?>
-HI! PAGES!
     <div id="blog">
       <? if (have_posts()) : ?>
         <? while (have_posts()) : the_post(); ?>

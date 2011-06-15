@@ -13,14 +13,14 @@ body {
 	line-height:1.75em;
 }
 h1 {
-	font-size:1.55em;
+	font-size:1.75em;
+	margin-bottom:0.2em;
 }
 h2 {
-	font-size:0.9em;
-	
+	font-size:1.1em;	
 }
 h3 {
-	font-size:1.125em;
+	font-size:1.225em;
 }
 a {
 	color:#959595;
@@ -29,13 +29,16 @@ a {
 a:hover{
 	color:#953E34;
 }
-
-h1, h2, h3, h4, h5, h6 {
+h1 {
+	font-family: 'Open Sans Condensed', arial, serif;
+}
+h2, h3, h4, h5, h6 {
 	font-family: 'Josefin Sans', arial, serif;
 }
 header nav ul li {
 	float:left;
 	margin-right:15px;
+	background:#fff;
 }
 header nav {
 	margin:15px 0 100px 0;
@@ -46,6 +49,7 @@ header .menu a:link, header .menu a:active, header .menu a:visited {
 }
 header .menu li {
 	position: relative;
+	border-bottom:1px solid #ccc;
 }
 header .menu ul {
 	position: absolute;
@@ -77,11 +81,12 @@ header .sub-menu li {
 	float: none;
 	text-align: left;
 	border-bottom: 1px solid #aaa;
-	padding: 0 5px;
+	padding: 0;
 	text-transform: none;
+	font-size:0.8em;
 }
 header .sub-menu li a {
-	padding-bottom: 5px;
+	padding-bottom: 0px;
 }
 header .menu li:hover ul ul, header .menu li:hover ul ul ul, header .menu li:hover ul ul ul ul {
 	display: none;
@@ -97,6 +102,9 @@ header .menu li:hover ul, header .menu li li:hover ul, header .menu li li li:hov
 #blogroll {
 	float:right;
 	width:200px;
+}
+#blogroll h2 {
+	font-size:0.9em;
 }
 #blogroll ul li {
 	font-size:0.75em;
@@ -116,6 +124,9 @@ blockquote {
 .post_content p {
 	margin-bottom:20px;
 }
+.post_content {
+	font-size:.95em;
+}
 p.wp-caption-text {
 	padding:0;
 	margin:0;
@@ -132,4 +143,12 @@ p.post-date{
 }
 div.post {
 	margin-bottom:75px;
+}
+.gallery-item {
+	margin-bottom:75px;
+}
+footer {
+	font-size:.65em;
+	color:#959595;
+	margin-top:100px;
 }
