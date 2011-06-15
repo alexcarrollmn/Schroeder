@@ -6,9 +6,8 @@
 	?>
 	
 	  <link rel="stylesheet" href="<?bloginfo("stylesheet_url");?>" type="text/css" media="screen">
-	  <link href='http://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Neuton' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:light,lightitalic' rel='stylesheet' type='text/css'>
-	  <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,100italic,light,lightitalic,regular,regularitalic,600,600italic,bold,bolditalic' rel='stylesheet' type='text/css'>
 	  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 	  <title><?wp_title( '|', true, 'right' );?></title>
 </head>

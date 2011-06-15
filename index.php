@@ -42,7 +42,9 @@
       ?>
     </div>
     <div id="blogroll">
-      <?get_links_list();?>
+      <ul>
+        <?get_links_list();?>
+      </ul>
     </div>
 <? get_footer(); ?>
 

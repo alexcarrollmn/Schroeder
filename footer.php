@@ -1,5 +1,5 @@
     <footer>
-      All work copyright Andrew Schroeder &copy; 2011.
+      All work copyright Andrew Schroeder &ndash; &copy; 2011.
     </footer>
   </div>
 </body>
