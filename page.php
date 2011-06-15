@@ -1,16 +1,10 @@
-<?php
-/*
-Template Name: Blog
-*/
-get_header(); 
-?>
-HI! BLOG!
+<? get_header(); ?>
+HI! PAGES!
     <div id="blog">
       <? if (have_posts()) : ?>
         <? while (have_posts()) : the_post(); ?>
           <div id="post-<? the_id(); ?>" class="post">
             <h3 class="post-title"><a href="<? the_permalink() ?>" title="Permalink to <? the_title(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
-            <p class="post-date"><?the_time('l, FjS, Y');?></p>
             <div class="post_content">
               <? the_content(); ?>
             </div>
