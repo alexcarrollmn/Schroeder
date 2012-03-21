@@ -15,7 +15,7 @@
           <div id="not_found" class="post">
             <h2 class="post-title">Page Not Found</h2>
             <div class="post_content">
-              <p>We're sorry but we were unable to find what you were looking for. Please search and try again.</p>
+              <p>We're (not?) sorry but we were unable to find what you were looking for. Please search and try again.</p>
             </div>
           </div>
       <? endif;?>
